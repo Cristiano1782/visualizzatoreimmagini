@@ -36,8 +36,8 @@ export class ImmaginiComponent implements OnInit {
   }
 
   meno(){
-    if(this.x == 10){
-      this.x = 0;
+    if(this.x == 0){
+      this.x = 10;
       this.number = this.linkImg[this.x];
     }else{
       this.x = this.x - 1;
