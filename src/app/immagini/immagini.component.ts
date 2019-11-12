@@ -13,7 +13,7 @@ export class ImmaginiComponent implements OnInit {
   }
   x = 0;
   
-  linkImg = ['https://themes.tielabs.com/qamar/wp-content/uploads/2012/12/4652641178_dcc614bb1f_b-480x360.jpg','https://www.donnamoderna.com/wp-content/uploads/2019/11/BERLIN_WALL-480x360.jpg','https://www.brokerleader.it/wp-content/uploads/2019/06/rischi-tecnologici-3-480x360.jpg',
+  linkImg= ['https://themes.tielabs.com/qamar/wp-content/uploads/2012/12/4652641178_dcc614bb1f_b-480x360.jpg','https://www.donnamoderna.com/wp-content/uploads/2019/11/BERLIN_WALL-480x360.jpg','https://www.brokerleader.it/wp-content/uploads/2019/06/rischi-tecnologici-3-480x360.jpg',
   'https://www.donnamoderna.com/wp-content/uploads/2015/04/shutterstock_476301484-480x360.jpg',
   'https://media.crimewatchdaily.com/2016/11/02/la-tease-480x360-1.jpg',
   'https://www.greatlakesnow.org/wp-content/uploads/2014/03/DetroitSkyline-480x360.jpg',
