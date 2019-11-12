@@ -58,6 +58,6 @@ export class ImmaginiComponent implements OnInit {
   }
 
   stop(){
-    ClearInterval(this.timer);
+    clearInterval(this.timer);
   }
 }
