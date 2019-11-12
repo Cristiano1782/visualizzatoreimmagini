@@ -44,4 +44,20 @@ export class ImmaginiComponent implements OnInit {
       this.number = this.linkImg[this.x];
     }
   }
+
+  auto(){
+    this.timer = setInterval(() => {
+      if(this.x == 10){
+      this.x = 0;
+      this.number = this.linkImg[this.x];
+    }else{
+      this.x = this.x + 1;
+      this.number = this.linkImg[this.x];
+    }
+    }, 2000);
+  }
+
+  stop(){
+    ClearInterval(this.timer);
+  }
 }
